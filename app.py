@@ -28,8 +28,8 @@ bp = Blueprint("routes", __name__, static_folder="static", template_folder="stat
 UI_TITLE = os.environ.get("UI_TITLE") or "Citation"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Citation Code Assist"
-UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Get help with your code"
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Citation Creative Content Assist"
+UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Get help with creating your content"
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
