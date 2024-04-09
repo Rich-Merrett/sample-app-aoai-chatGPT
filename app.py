@@ -29,7 +29,7 @@ UI_TITLE = os.environ.get("UI_TITLE") or "Citation"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Sales Product Assist"
-UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Ask a question to get help with Citation products"
+UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "I'm an assistant that can help answer questions on Citation products onl. Use me to ask questions, respond to queries, and help draft emails."
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
