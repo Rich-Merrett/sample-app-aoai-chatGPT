@@ -28,7 +28,7 @@ bp = Blueprint("routes", __name__, static_folder="static", template_folder="stat
 UI_TITLE = os.environ.get("UI_TITLE") or "Citation"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Citation Internal Sales Assist:"
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Citation Inside Sales Assist:"
 UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Ask your questions about what we can offer our clients, with specific focus on Construction, Golf, Manufacturing and Nursery."
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
