@@ -29,7 +29,7 @@ UI_TITLE = os.environ.get("UI_TITLE") or "Citation"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Citation Brand Assist"
-UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Generate new content or ask to translate existing content to the Citation Tone of Voice"
+UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "Generate new content or ask to translate existing content to the Citation Tone of Voice. Please note AI-generated content may not always be accurate. Please make sure you double-check the accuracy of all outputs."
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
